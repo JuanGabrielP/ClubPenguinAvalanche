@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conheça Club Penguin Avalanche</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="stylesheet" href="./src/css/responsive.css">
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source
+          src="./src/video/y2meta.com - Club Penguin Avalanche - Trailer(360p).mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <header class="cabecalho">
+      <img
+        class="penguin-gif"
+        src="./src/img/Actions.gif"
+        alt="pinguim fazendo a dança do CP"
+      />
+
+      <nav>
+        <ul class="menu">
+          <li><a href="https://twitter.com/cpavaalanche" target="_blank">Twitter</a></li>
+          <li><a href="https://discord.gg/cpavalanche" target="_blank">Discord</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="informacoes">
+        <img
+          class="logo-cpa"
+          src="./src/img/cpavalanche_logo2.png"
+          alt="Logo 3 do CPA"
+        />
+
+        <p class="descricao">
+          Tá fazendo frio! Esse é o clima ideal para andar pela ilha, fazer
+          amigos, adotar um puffle, dar uma festa no iglu e muito mais só no
+          Club Penguin Avalanche! Um Club Penguin com o intuito de fazer
+          diferente, trazendo emoções e nostalgia para todas as idades, fique
+          atento aos anúncios e divirta-se! 🐧
+        </p>
+
+        <button class="botao-trailer">Veja o trailer</button>
+      </div>
+      <img
+        class="penguins"
+        src="./src/img/1678373024746.png"
+        alt="Um grupo de pinguins"
+      />
+
+      <div class="modal">
+        <div class="conteudo-modal">
+            <span class="fechar-modal">X</span>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WWnEQ6Qw65k" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
